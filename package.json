@@ -1,0 +1,29 @@
+{
+  "name": "highlightjs-vue",
+  "version": "0.0.0-semantic-versioned",
+  "description": "Highlight Single-File Components of Vue.js Framework",
+  "main": "vue.js",
+  "scripts": {
+    "test": "./node_modules/.bin/mocha --reporter spec"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/highlightjs/highlightjs-vue.git"
+  },
+  "keywords": [
+    "highlight",
+    "hljs",
+    "vue.js"
+  ],
+  "author": "Sara Lissette <lissette.ibnz@gmail.com> (https://github.com/LissetteIbnz)",
+  "license": "CC0-1.0",
+  "bugs": {
+    "url": "https://github.com/highlightjs/highlightjs-vue/issues"
+  },
+  "homepage": "https://github.com/highlightjs/highlightjs-vue#readme",
+  "dependencies": {
+    "highlight.js": "^9.15.10",
+    "mocha": "^6.2.0",
+    "should": "^13.2.3"
+  }
+}

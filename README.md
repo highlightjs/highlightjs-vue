@@ -22,7 +22,7 @@ If you're using webpack / rollup / browserify / node:
 
 ```javascript
 var hljs = require('highlightjs');
-var hljsDefineCshtmlRazor = require('highlightjs-vue');
+var hljsDefineVue = require('highlightjs-vue');
 
 hljsDefineVue(hljs);
 hljs.initHighlightingOnLoad();

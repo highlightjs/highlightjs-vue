@@ -1,6 +1,6 @@
 /*
 Language: Vue.js
-Requires: xml.js, javascript.js, typescript.js, css.js, stylus.js, scss.js
+Requires: xml.js, pug.js, javascript.js, typescript.js, css.js, stylus.js, scss.js
 Author: Sara Lissette Luis Ibáñez <lissette.ibnz@gmail.com>
 Description: Single-File Components of Vue.js Framework
 */
@@ -13,6 +13,13 @@ function hljsDefineVue(hljs) {
       hljs.COMMENT("<!--", "-->", {
         relevance: 10,
       }),
+      {
+        begin: /^(\s*)(<template lang=["']pug["']>)/gm,
+        end: /^(\s*)(<\/template>)/gm,
+        subLanguage: "pug",
+        excludeBegin: true,
+        excludeEnd: true,
+      },
       {
         begin: /^(\s*)(<script>)/gm,
         end: /^(\s*)(<\/script>)/gm,

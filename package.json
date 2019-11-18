@@ -1,6 +1,6 @@
 {
   "name": "highlightjs-vue",
-  "version": "1.0.0",
+  "version": "1.0.0-beta",
   "description": "Highlight Single-File Components of Vue.js Framework",
   "main": "dist/highlightjs-vue.cjs.js",
   "module": "dist/highlightjs-vue.esm.js",

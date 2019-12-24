@@ -22,8 +22,8 @@
     "vue.js",
     "vue"
   ],
-  "author": "Sara Lissette <lissette.ibnz@gmail.com> (https://github.com/LissetteIbnz)",
-  "license": "CC0-1.0",
+  "author": "Sara Lissette Luis Ibáñez <lissette.ibnz@gmail.com> (https://github.com/LissetteIbnz)",
+  "license": "BSD-3-Clause",
   "bugs": {
     "url": "https://github.com/highlightjs/highlightjs-vue/issues"
   },

@@ -48,6 +48,18 @@ div {
 }
 </style>
 
+<style module>
+div {
+  color: red;
+}
+</style>
+
+<style module="a">
+div {
+  color: red;
+}
+</style>
+
 <style>
 div {
   color: red;

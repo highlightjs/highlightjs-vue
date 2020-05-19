@@ -1,6 +1,6 @@
 /*
 Language: Vue.js
-Requires: xml.js, javascript.js, typescript.js, css.js, stylus.js, scss.js
+Requires: xml.js, javascript.js, typescript.js, css.js, stylus.js, scss.js, less.js
 Author: Sara Lissette Luis Ibáñez <lissette.ibnz@gmail.com>
 Description: Single-File Components of Vue.js Framework
 */
@@ -38,6 +38,13 @@ function hljsDefineVue(hljs) {
         begin: /^(\s*)(<style lang=["'](scss|sass)["'](\s(scoped|module(=\"\w+\")?))?>)/gm,
         end: /^(\s*)(<\/style>)/gm,
         subLanguage: "scss",
+        excludeBegin: true,
+        excludeEnd: true,
+      },
+      {
+        begin: /^(\s*)(<style lang=["']less["'](\s(scoped|module(=\"\w+\")?))?>)/gm,
+        end: /^(\s*)(<\/style>)/gm,
+        subLanguage: "less",
         excludeBegin: true,
         excludeEnd: true,
       },

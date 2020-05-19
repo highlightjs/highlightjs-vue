@@ -79,6 +79,14 @@ a {
 }
 </style>
 
+<style lang="less">
+@color: red;
+
+a {
+  color: @color;
+}
+</style>
+
 <style lang="stylus">
 font-stack = Helvetica, sans-serif
 primary-color = #999

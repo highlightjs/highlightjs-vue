@@ -1,6 +1,6 @@
 /*
 Language: Vue.js
-Requires: xml.js, pug.js, javascript.js, typescript.js, css.js, stylus.js, scss.js
+Requires: xml.js, javascript.js, typescript.js, css.js, stylus.js, scss.js
 Author: Sara Lissette Luis Ibáñez <lissette.ibnz@gmail.com>
 Description: Single-File Components of Vue.js Framework
 */

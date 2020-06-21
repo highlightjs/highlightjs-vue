@@ -10,23 +10,24 @@ Simply include the `highlight.js` script package in your webpage or node app, lo
 If you're not using a build system and just want to embed this in your webpage:
 
 ```html
-<script src="/path/to/highlightjs/highlight.pack.js"></script>
-<script src="/path/to/highlightjs-vue/vue.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/highlightjs"></script>
+<script src="https://cdn.jsdelivr.net/npm/highlightjs-vue"></script>
 <script>
-    hljs.registerLanguage('vue', window.hljsDefineVue);
-    hljs.initHighlightingOnLoad();
+  hljs.registerLanguage("vue", window.hljsDefineVue);
+  hljs.initHighlightingOnLoad();
 </script>
 ```
 
 If you're using webpack / rollup / browserify / node:
 
 ```javascript
-var hljs = require('highlightjs');
-var hljsDefineVue = require('highlightjs-vue');
+var hljs = require("highlightjs");
+var hljsDefineVue = require("highlightjs-vue");
 
 hljsDefineVue(hljs);
 hljs.initHighlightingOnLoad();
 ```
 
 ### License
-[![License: CC0-1.0](https://img.shields.io/badge/License-CC0%201.0-lightgrey.svg)](http://creativecommons.org/publicdomain/zero/1.0/)
+
+![GitHub](https://img.shields.io/github/license/highlightjs/highlightjs-vue?logo=License%20BSD-3-Clause)

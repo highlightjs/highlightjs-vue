@@ -21,7 +21,7 @@ function hljsDefineVue(hljs) {
         excludeEnd: true,
       },
       {
-        begin: /^(?:\s*)(?:<script lang=(["'])ts\1>)/gm,
+        begin: /^(?:\s*)(?:<script\s+lang=(["'])ts\1>)/gm,
         end: /^(\s*)(<\/script>)/gm,
         subLanguage: "typescript",
         excludeBegin: true,

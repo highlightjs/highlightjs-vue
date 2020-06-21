@@ -14,13 +14,6 @@ function hljsDefineVue(hljs) {
         relevance: 10,
       }),
       {
-        begin: /^(\s*)(<template lang=["']pug["']>)/gm,
-        end: /^(\s*)(<\/template>)/gm,
-        subLanguage: "pug",
-        excludeBegin: true,
-        excludeEnd: true,
-      },
-      {
         begin: /^(\s*)(<script>)/gm,
         end: /^(\s*)(<\/script>)/gm,
         subLanguage: "javascript",
@@ -42,14 +35,14 @@ function hljsDefineVue(hljs) {
         excludeEnd: true,
       },
       {
-        begin: /^(\s*)(<style lang=["'](scss|sass)["'](\sscoped)?>)/gm,
+        begin: /^(\s*)(<style(\sscoped)? lang=["'](scss|sass)["'](\sscoped)?>)/gm,
         end: /^(\s*)(<\/style>)/gm,
         subLanguage: "scss",
         excludeBegin: true,
         excludeEnd: true,
       },
       {
-        begin: /^(\s*)(<style lang=["']stylus["'](\sscoped)?>)/gm,
+        begin: /^(\s*)(<style(\sscoped)? lang=["']stylus["'](\sscoped)?>)/gm,
         end: /^(\s*)(<\/style>)/gm,
         subLanguage: "stylus",
         excludeBegin: true,
